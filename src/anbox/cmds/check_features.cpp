@@ -30,6 +30,9 @@ std::vector<std::string> cpu_whitelist = {
   // The following CPUs do not support AVX and without it cpu_features can't detect
   // if SSE & friends are supported. See https://github.com/google/cpu_features/issues/4
 
+  
+  // Intel Core i7 Q820
+  "Q 820"
   // Intel Core i7 M620
   "M 620",
   // Intel Celeron N2840
